@@ -10,9 +10,9 @@ public class MailInfo {
 	public String _mail_sender_address = "";// 发送人地址
 	public String _mail_receiver_address = "";// 接收者地址
 	public String _mail_content_txt = "";// 数据发送内容
-	public String _mail_subject_txt = "";
+	public String _mail_subject_txt = ""; // 主题内容
 	public String[] _mail_file_path;// 邮件附件的路径
-	public boolean isValidate = false;
+	public boolean isValidate = false;// 是否需要验证
 
 	public Properties getProperties() {
 		Properties properties = new Properties();
